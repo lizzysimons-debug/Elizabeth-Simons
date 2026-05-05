@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elizabeth A. Simons Portfolio | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Italianno&family=La+Belle+Aurore&family=Lavishly+Yours&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Elizabeth A. Simons Portfolio home">
+      <img class="brand__logo" src="assets/logo.png" alt="Elizabeth A. Simons monogram logo">
+      <span class="brand__title">Elizabeth A. Simons <span>Portfolio</span></span>
+    </a>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html" data-page="index.html">Home</a>
+      <a href="skills-resume.html" data-page="skills-resume.html">Skills &amp; Resume</a>
+      <a href="projects.html" data-page="projects.html">Projects</a>
+      <a href="contact.html" data-page="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="home-page" aria-label="Home page content">
+    <section class="home-intro" aria-label="Portfolio introduction">
+      <div class="quote-card">
+        <p>"If my life is going to mean anything, I have to live it myself."</p>
+        <p>&mdash; Rick Riordan (The Lightning Thief)</p>
+      </div>
+
+      <figure class="portrait-lockup" aria-label="Elizabeth A. Simons portrait">
+        <img class="portrait-lockup__photo" src="assets/headshot.png" alt="Elizabeth A. Simons headshot">
+        <img class="portrait-lockup__frame" src="assets/portrait-frame.png" alt="">
+      </figure>
+
+      <button class="plaque-button" type="button" data-bio-open aria-expanded="false" aria-controls="biography-panel">
+        <img src="assets/click-plaque.png" alt="">
+        <span>Click Here</span>
+      </button>
+    </section>
+
+    <section class="biography-panel" id="biography-panel" aria-label="Biography" hidden>
+      <div class="biography-card">
+        <img src="assets/bio-plaque.png" alt="">
+        <p>
+          My name is Elizabeth Simons, and I am a trainee at Hopeworks with a strong passion for design,
+          creativity, and digital media. I enjoy combining artistic ideas with technology to create engaging,
+          unique content. I have experience working with nonprofit organizations, including managing social media for Jackson's
+          Wish Foundation, where I help increase engagement, build community awareness, and strengthen the
+          organization's online presence. Through this, I've developed skills in content creation, branding,
+          communication, and audience engagement. I graduated from Helms Academy and plan to continue my
+          education through future college coursework. At Hopeworks, I've strengthened my skills in digital design, coding, and media development while
+          gaining hands-on experience in collaboration and problem-solving. My goal is to pursue a career in
+          digital media, product design, or creative development, continuing to grow while creating visually
+          impactful and meaningful work.
+        </p>
+      </div>
+
+      <div class="locket-nav" aria-label="Home page next links">
+        <img class="locket-nav__image" src="assets/locket-image.png" alt="">
+        <img class="locket-nav__frame" src="assets/locket.png" alt="">
+        <a class="locket-nav__next" href="skills-resume.html">Next</a>
+        <a class="locket-nav__project" href="projects.html" aria-label="View projects"></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-link" href="#" aria-label="Open Elizabeth A. Simons Linktree">
+      <img src="assets/footer-link.png" alt="Decorative footer link seal">
+    </a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
